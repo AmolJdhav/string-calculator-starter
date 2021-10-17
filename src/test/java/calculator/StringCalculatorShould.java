@@ -30,5 +30,9 @@ class StringCalculatorShould {
        {
     	   	assertEquals(stringCalculator.add("1\n2"),3);
        }
+       public void multipleDelimiterReturnSum() throws Exception 
+       {
+    	   	assertEquals(stringCalculator.add("1;2"),3);
+       }
        
 }
